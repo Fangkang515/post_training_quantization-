@@ -106,7 +106,6 @@ def quantize(model, data_loader, data_loader_test):
     criterion = nn.CrossEntropyLoss()
     num_calibration_batches = 10
     num_eval_batches = 10
-
     eval_batch_size = 30
 
     myModel = model
@@ -125,7 +124,6 @@ def quantize(model, data_loader, data_loader_test):
     [data_loader_test])
 
     print(quantized_model.graph)
-
     print('Size of model before quantization')
     print_size_of_model(ts_model)
     print('Size of model after quantization')
@@ -144,9 +142,6 @@ def quantize(model, data_loader, data_loader_test):
 def main():
     #initializing data loader 
     args = get_parser().parse_args()
-    #data_path = '/ssd3/jhahn/ptq/data/imagenet_1k/'
-    #data_loader, data_loader_test = data_loaders(data_path)
-    #model = model_setup()
     model = model_setup(args)
     data_loader, data_loader_test = data_loaders(args)
     quantize(model, data_loader, data_loader_test)
