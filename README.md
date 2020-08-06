@@ -18,3 +18,6 @@ python3 post_q.py -m resnet18 -c /ssd3/jhahn/ptq/model/saved_model/resnet18-mode
 In order to run this module the dataset should be in the same format as the following dataset 
 https://s3.amazonaws.com/pytorch-tutorial-assets/imagenet_1k.zip
 
+## Result
+![result](result.PNG)
+
