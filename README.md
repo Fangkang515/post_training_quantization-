@@ -5,10 +5,10 @@ Set up the environment for using post training quantization by downloading pytor
 (https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md) 
 
 ## Running the Program
--m  or --model: selecting 1 of 12 pretrained models implemented in torchvision 
--c or --checkpoint: path for the checkpoint of the model that will go through quantization 
--d or --data: path for the data which the original model was built upon 
--n or --target: number of classes 
+- -m  or --model: selecting 1 of 12 pretrained models implemented in torchvision   
+- -c or --checkpoint: path for the checkpoint of the model that will go through quantization   
+- -d or --data: path for the data which the original model was built upon   
+- -n or --target: number of classes   
  
 example of performing the post training quantization of a model built by a certain dataset 
 ```bash
