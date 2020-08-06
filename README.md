@@ -1,5 +1,5 @@
 # post_training_quantization-
-A module that enables post training quantization for a deep learning classification model 
+A module that enables post training quantization for a pytorch deep learning classification model 
 ## Setup
 Set up the environment for using post training quantization by downloading pytorch 
 (https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md) 
