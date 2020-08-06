@@ -1,14 +1,6 @@
 import os
 
-import numpy as np
 import torch
-import torch.nn as nn
-import torchvision
-from torch.utils.data import DataLoader
-from torchvision import datasets, models
-import torchvision.transforms as transforms
-import torch.quantization
-from torch.quantization import get_default_qconfig, quantize_jit
 from average_meter import AverageMeter
 
 def accuracy(output, target, topk=(1,)):
