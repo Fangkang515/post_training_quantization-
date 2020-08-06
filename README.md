@@ -31,7 +31,7 @@ The 12 models are the following:
 (10)resnext50_32x4d   
 (11)wide_resnet50_2   
 (12)mnasnet  
-
+https://pytorch.org/docs/stable/torchvision/models.html
 ## Result
 ![result](result.PNG)
 
