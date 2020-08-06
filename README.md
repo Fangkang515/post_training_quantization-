@@ -17,7 +17,7 @@ python3 main.py -m resnet18 -c /ssd3/jhahn/ptq/model/saved_model/resnet18-model1
 ## Caution
 1. In order to use this module the dataset should be in the same format as the following dataset \n 
 https://s3.amazonaws.com/pytorch-tutorial-assets/imagenet_1k.zip
-2. This module only works for 12 classification model implemented in torch vision. 
+2. This module only works for 12 classification model implemented in torchvision(https://pytorch.org/docs/stable/torchvision/models.html). 
 The 12 models are the following:  
 (1)resnet18   
 (2)alexnet   
@@ -31,7 +31,7 @@ The 12 models are the following:
 (10)resnext50_32x4d   
 (11)wide_resnet50_2   
 (12)mnasnet  
-https://pytorch.org/docs/stable/torchvision/models.html
+
 ## Result
 ![result](result.PNG)
 
